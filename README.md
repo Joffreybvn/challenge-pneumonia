@@ -8,6 +8,7 @@ Given a lungs x-ray dataset, we created a model that can classify the lung as "N
 We started from the [chest x-ray image](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia/) from kaggle.
 
 #### Problem: Unequal data distribution
+![Unequal distribution](./assets/unequal_distribution.svg)
 The dataset is rather badly balanced: 1300 images of "Normal" lungs and 3875 of "Pneumonia" lungs. We decided, during the data transformation, to reduce the size our dataset in order to have a more balanced distribution of the data.
 
 #### Problem: Multiple sizes images
